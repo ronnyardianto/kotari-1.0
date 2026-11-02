@@ -1,0 +1,6 @@
+{
+  "name": "KOTARI - Koreksi Kosakata Hari Ini",
+  "description": "Aplikasi pendeteksi kalimat tidak efektif dalam bahasa Indonesia berbasis Tata Bahasa Baku dan SK EYD 2022 dengan fitur Pindai Tulisan, Kotak Paragraf, Repositoriku, dan Asisten AI.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

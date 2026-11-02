@@ -1,0 +1,6 @@
+{
+  "summary":  "Rencana implementasi aplikasi web KOTARI (Korektor & Tata Bahasa Republik Indonesia): pendeteksi kalimat tidak efektif berbasis Tata Bahasa Baku Bahasa Indonesia dan SK EYD V 2022, fitur Pindai Tulisan (kamera langsung & unggah foto dengan OCR Gemini), Kotak Paragraf (hingga 5 kalimat), highlight 3 warna (merah = tanda baca, kuning = tipo/ejaan, biru = diksi/efektivitas), Repositoriku (bank kosakata lokal dengan ekspor/impor), dan Asisten AI KOTARI interaktif.",
+  "updatedAt":  "2026-11-02T01:40:16.231192189Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}

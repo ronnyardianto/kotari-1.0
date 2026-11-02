@@ -1,0 +1,48 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --font-handwriting: 'Caveat', 'Alex Brush', cursive;
+
+  /* Custom Logo Color Palette */
+  --color-kotari-ice: #9cbfe5;
+  --color-kotari-blue: #539ab7;
+  --color-kotari-mint: #84c1b9;
+  --color-kotari-lime: #b1cd5c;
+  --color-kotari-deep: #347899;
+  --color-kotari-teal: #53aca2;
+}
+
+:root {
+  color-scheme: light dark;
+}
+
+body {
+  font-family: var(--font-sans);
+  min-height: 100vh;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Handwriting utility */
+.font-handwriting {
+  font-family: var(--font-handwriting);
+}
+
+/* Subtle scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(83, 154, 183, 0.4);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(52, 120, 153, 0.7);
+}
